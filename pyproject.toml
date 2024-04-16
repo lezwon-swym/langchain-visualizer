@@ -8,11 +8,12 @@ packages = [{ include = "langchain_visualizer" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-langchain = ">=0.0.344,<0.1"
+langchain = "*"
 ought-ice = "^0.5.0"
 fvalues = "^0.0.4"
 gorilla = "^0.4.0"
-pydantic = "^1.0.0"
+pydantic = "*"
+vcr-langchain = {git = "https://github.com/lezwon-swym/vcr-langchain.git", rev = "langchain-0.1-support"}
 
 
 [tool.poetry.group.dev.dependencies]
@@ -21,17 +22,17 @@ black = "^22.12.0"
 isort = "^5.11.4"
 flake8 = "^6.0.0"
 pytest = "^7.2.1"
-openai = "^0.27.0"
-vcr-langchain = "^0.0.30"
+openai = "*"
+vcr-langchain = "*"
 google-search-results = "^2.4.1"
 faiss-cpu = "^1.7.3"
-tiktoken = "^0.3.3"
+tiktoken = "*"
 autoflake = "^2.0.1"
 pytest-asyncio = "^0.21.0"
 playwright = "^1.34.0"
 beautifulsoup4 = "^4.12.2"
 lxml = "^4.9.2"
-langchain-experimental = "^0.0.43"
+langchain-experimental = "*"
 numexpr = "^2.8.8"
 
 [tool.pytest.ini_options]
