@@ -9,7 +9,7 @@ packages = [{ include = "langchain_visualizer" }]
 [tool.poetry.dependencies]
 python = "^3.9"
 langchain = "*"
-ought-ice = {git = "https://github.com/lezwon-swym/ice.git", rev = "0.5.1"}
+ought-ice = {git = "https://github.com/lezwon-swym/ice.git", rev = "0.5.2"}
 fvalues = "^0.0.4"
 gorilla = "^0.4.0"
 pydantic = "*"
