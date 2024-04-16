@@ -2160,7 +2160,7 @@ torch = ["protobuf", "sentencepiece", "torch"]
 [package.source]
 type = "git"
 url = "https://github.com/lezwon-swym/ice.git"
-reference = "HEAD"
+reference = "0.5.1"
 resolved_reference = "391dc5109174406dce0e655d54167542c30fa94e"
 
 [[package]]
@@ -4213,4 +4213,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "bb4b8e29cbba776477dc5e85d50709da7a83cf1c395e8d1a5c8d37ff2e1ffda8"
+content-hash = "b2cbe7950d6e7f5c00c31b69488ecbd9e2aaecbecac64e8e15292ffe1a3cfe34"
