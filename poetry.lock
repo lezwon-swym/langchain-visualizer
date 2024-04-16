@@ -2114,14 +2114,12 @@ files = [
 
 [[package]]
 name = "ought-ice"
-version = "0.5.0"
+version = "0.1.dev853+g391dc51"
 description = "Interactive Composition Explorer"
 optional = false
 python-versions = ">=3.9"
-files = [
-    {file = "ought-ice-0.5.0.tar.gz", hash = "sha256:96768e80ce6fce194b90f74d9ec99fb05b9dfc04f79aeed2dab751d277155c2e"},
-    {file = "ought_ice-0.5.0-py3-none-any.whl", hash = "sha256:0caa08d95b3360cd8d30490e5c53cd98a1ffdd9d2e10efe187d26944c2a19655"},
-]
+files = []
+develop = false
 
 [package.dependencies]
 defopt = "*"
@@ -2158,6 +2156,12 @@ websockets = "*"
 [package.extras]
 dev = ["autoflake", "black", "flake8", "mypy", "pre-commit", "pylint", "pytest", "pytest-cov", "pytest-mock"]
 torch = ["protobuf", "sentencepiece", "torch"]
+
+[package.source]
+type = "git"
+url = "https://github.com/lezwon-swym/ice.git"
+reference = "HEAD"
+resolved_reference = "391dc5109174406dce0e655d54167542c30fa94e"
 
 [[package]]
 name = "packaging"
@@ -4209,4 +4213,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "9f13fd5fab8675f5df7ed36ad958dea681f32a183620fb99addfc00564ca342b"
+content-hash = "bb4b8e29cbba776477dc5e85d50709da7a83cf1c395e8d1a5c8d37ff2e1ffda8"
